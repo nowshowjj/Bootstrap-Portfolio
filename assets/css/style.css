@@ -1,0 +1,77 @@
+body {
+	/*background: #dce0db;*/
+	background-image: url(http://www.hollidayrock.com/wp-content/uploads/bg-fullres.jpg?id=5041);
+}
+
+/*specificity issue. see below. all better now!*/
+.navbar .navbar-brand {
+    color: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: #4aaaa5;
+	font-size: 40px;
+	font-weight: bolder;
+}
+
+
+.navbar {
+	border-bottom: 1px solid #646970;
+}
+
+.left-card {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.right-card {
+	margin-top: 50px;
+}
+
+/*.navbar-brand {
+	background-color: #26ad9f;
+	font-size: 40px;
+	font-weight: bolder;
+}*/
+
+
+.footer {
+	text-align: center;	
+	background: grey;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-top: 8px solid #4aaaa5;
+}
+
+.card-title {
+	text-align: center;
+	color: #4aaaa5;
+	font-size: 22px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: bolder;
+}
+
+
+.profile {
+	float: left;
+	margin-right: 20px;
+	margin-top: 10px;
+}
+
+.card-title-0 {
+	color: #4aaaa5;
+	font-size: 30px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: bolder;
+}
+
+
+.fab {
+	margin-left: 20px;
+}
+
+.wut {
+	margin: 20px 20px 20px 30px;
+}
+
+p {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
